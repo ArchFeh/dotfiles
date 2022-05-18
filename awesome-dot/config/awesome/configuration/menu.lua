@@ -16,7 +16,6 @@ awful.screen.connect_for_each_screen(function(s)
 				hotkeys_popup.show_help(nil, awful.screen.focused())
 			end,
 		},
-		{ "Manual", terminal .. " -e man awesome" },
 		{ "Edit Config", editor .. " " .. awesome.conffile },
 		{ "Restart", awesome.restart },
 		{

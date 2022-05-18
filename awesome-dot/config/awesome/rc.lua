@@ -14,7 +14,7 @@ themes = {
 	"day", -- [1] 🌕 Beautiful Light Colorscheme
 	"night", -- [2] 🌑 Aesthetic Dark Colorscheme
 }
-theme = themes[1]
+theme = themes[2]
 -- ============================================
 -- 🌊 Default Applications
 terminal = "alacritty"
@@ -22,7 +22,7 @@ editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
 browser = "google-chrome-stable"
 web_search_cmd = "xdg-open https://www.google.com.hk/search?q="
-file_manager = "dolphin"
+file_manager = "nautilus"
 music_client = terminal .. " --class music -e ncmpcpp"
 
 -- 🌏 Weather API

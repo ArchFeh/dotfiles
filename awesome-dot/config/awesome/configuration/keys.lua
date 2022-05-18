@@ -38,8 +38,8 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn.with_shell("rofi -no-lazy-grab -show drun -modi drun -theme " .. gfs.get_configuration_dir() .. "configuration/rofi.rasi")
 	end, { description = "open app launcher", group = "launcher" }),
 	awful.key({ modkey, shift }, "x", function()
-		awful.spawn.with_shell("gpick")  --gaidong
-	end, { description = "open color picker", group = "launcher" }),
+		awful.spawn.with_shell(vscode)
+	end, { description = "open vscode", group = "launcher" }),
 })
 
 -- Client and Tabs Bindings
@@ -127,12 +127,12 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn.with_shell("screensht full")
 	end, { description = "take a full screenshot", group = "hotkeys" }),
 
-	awful.key({ alt }, "Print", function()
+	awful.key({ modkey,shift}, 's' , "Print", function()
 		awful.spawn.with_shell("screensht area")
 	end, { description = "take a area screenshot", group = "hotkeys" }),
 
 	-- Lockscreen
-	awful.key({ modkey, ctrl }, "l", function()
+	awful.key({ modkey, ctrl}, "p", function()
 		lock_screen_show()
 	end, { description = "lock screen", group = "hotkeys" }),
 

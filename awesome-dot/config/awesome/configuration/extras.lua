@@ -35,9 +35,9 @@ client.connect_signal("request::manage", function(c)
 end)
 
 -- Enable sloppy focus, so that focus follows mouse.
-client.connect_signal("mouse::enter", function(c)
-	c:emit_signal("request::activate", "mouse_enter", { raise = false })
-end)
+--client.connect_signal("mouse::enter", function(c)
+--	c:emit_signal("request::activate", "mouse_enter", { raise = false })
+--end)
 
 -- Hide all windows when a splash is shown
 awesome.connect_signal("widgets::splash::visibility", function(vis)
