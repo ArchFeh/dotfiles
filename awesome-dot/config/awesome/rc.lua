@@ -14,7 +14,7 @@ themes = {
 	"day", -- [1] 🌕 Beautiful Light Colorscheme
 	"night", -- [2] 🌑 Aesthetic Dark Colorscheme
 }
-theme = themes[2]
+theme = themes[1]
 -- ============================================
 -- 🌊 Default Applications
 terminal = "alacritty"

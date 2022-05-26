@@ -158,7 +158,7 @@ awful.screen.connect_for_each_screen(function(s)
 	})
 
 	-- Widget
-	local uptime_boxed = create_boxed_widget(uptime_container, dpi(190), dpi(60))
+	local uptime_boxed = create_boxed_widget(uptime_container, dpi(110), dpi(60))
 	local analog_clock_boxed = create_boxed_widget(analog_clock, dpi(110), dpi(110))
 
 	-- Tooltip setup

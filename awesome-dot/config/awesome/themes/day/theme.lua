@@ -50,7 +50,7 @@ theme.awesome_logo = gears.surface.load_uncached(gfs.get_configuration_dir() .. 
 
 -- Fonts
 theme.font_name = "Iosevka "
-theme.font = theme.font_name .. "Regular 8"
+theme.font = theme.font_name .. "Regular 10"
 theme.icon_font_name = "Material Icons "
 theme.icon_font = theme.icon_font_name .. "18"
 theme.font_taglist = theme.icon_font_name .. "16"
@@ -112,7 +112,7 @@ theme.pop_border_radius = theme.border_radius
 theme.tooltip_bg = theme.darker_bg
 theme.tooltip_widget_bg = theme.lighter_bg
 theme.tooltip_height = dpi(270)
-theme.tooltip_width = dpi(230)
+theme.tooltip_width = dpi(150)
 theme.tooltip_border_radius = theme.border_radius
 theme.tooltip_box_border_radius = theme.widget_radius
 

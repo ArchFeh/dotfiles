@@ -63,7 +63,7 @@ client.connect_signal("request::titlebars", function(c)
 	end)
 
 	local minimize = create_title_button(c, beautiful.xcolor3, beautiful.xcolor8 .. 55, gears.shape.circle)
-	minimize:connect_signal("button::press", function()
+	minimize:connect_signal("button::release", function()
 		c.minimized = true
 	end)
 

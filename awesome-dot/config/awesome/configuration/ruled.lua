@@ -47,7 +47,7 @@ ruled.client.connect_signal("request::rules", function()
 		rule_any = {
 			class = {
 				"discord",
-				"Code",
+				--"Code",
 				"Spotify",
 				"Org.gnome.Nautilus",
 			},
@@ -56,6 +56,7 @@ ruled.client.connect_signal("request::rules", function()
 			},
 			name = {
 				"^discord.com is sharing your screen.$", -- Discord (running in browser) screen sharing popup
+				"Clash for Windows",
 			},
 		},
 		properties = {
@@ -72,10 +73,12 @@ ruled.client.connect_signal("request::rules", function()
 			},
 			class = {
 				"Lxappearance",
+				"zoom",
 				"Nm-connection-editor",
 			},
 			name = {
 				"Event Tester", -- xev
+				"Clash for Windows",
 			},
 			role = {
 				"AlarmWindow",

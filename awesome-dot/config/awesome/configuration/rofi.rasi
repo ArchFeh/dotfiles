@@ -9,7 +9,7 @@ configuration {
 }
 
 @theme "/dev/null"
-@import "../themes/night/night.rasi"
+@import "../themes/day/day.rasi"
 
 window {
     transparency:                   "real";

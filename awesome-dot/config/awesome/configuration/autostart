@@ -8,8 +8,8 @@ start() {
 }
 
 # music
-start mpd
-start mpDris2 # add playerctl support to mpd
+# start mpd
+# start mpDris2 # add playerctl support to mpd
 
 # compositor
 start picom --experimental-backends --config $HOME/.config/awesome/configuration/picom.conf
